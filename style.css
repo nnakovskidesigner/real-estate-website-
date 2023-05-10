@@ -1,9 +1,45 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200&display=swap');
 
-  body{
-    font-family: 'Exo', sans-serif;
+@font-face {
+  font-family: myFirstFont;
+  src: url('/fonts/cameronsans.medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('/fonts/cameronsans.bold.ttf') format('truetype');
+  }
+
+/* Poppins font Poppins regular */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* Italic */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* Medium */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+/* Semibold */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+/* Bold */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
+
 font-family: 'Poppins', sans-serif;
+font-weight: 400; /* Regular */
+font-weight: 500; /* Medium */
+font-weight: 700; Bold
+
+  
+
+  
+
+  body{
+    font-family: 'Poppins', sans-serif;
+font-weight: 400; /* Regular */
+    
+
   }
 .logopng{
     width: 100px;
@@ -28,4 +64,72 @@ font-family: 'Poppins', sans-serif;
 }
 .heightcontainerhero {
     max-height: 350px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.55);
+}
+
+
+.movebackgroundimagehero{
+    height: 500vh!important;
+    
+    /* background-position: center top -225px; */
+    background-position: center top -250px;
+}
+/* Set height to 800 pixels */
+.heightcontainerhero {
+    height: 800px;
+  }
+  
+  /* Set height to 80% of the viewport height */
+  .heightcontainerhero {
+    height: 80vh;
+  }
+  
+  /* Set height to 100% of the viewport width */
+  .heightcontainerhero {
+    height: 100vw;
+  }
+  
+
+  .heroheadingtext{
+    padding-top: 7%!important;
+    font-size: rem;
+    color: white!important;
+    
+  }
+  .subheadinghero{
+    font-size: 25px;
+    font-weight: 300;
+    color: white!important;
+  }
+  .textinputfieldhero{
+    width: 800px!important;
+    border-radius: 20px!important;
+    padding-left: 20px!important;
+    padding-bottom: 10px!important;
+  }
+  .searchbuttonherosection{
+    border-radius: 20px!important;
+    padding-left: 5px!important;
+    /* position: absolute;
+    right: 359px; */
+    border: 3px solid white;
+  }
+  .sponsor_images img{
+    width: 100px;
+   margin-right: 10%;
+  }
+  .buyrentsellcategories{
+    text-align: center;
+  }
+.buyrentsellcategories img{
+  width: 250px;
+  text-align: center;
+
+  display: block;
+  margin: 0 auto;
+}
+.buttonwidth226{
+  min-width: 226px;
 }
